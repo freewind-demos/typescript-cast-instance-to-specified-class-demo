@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Cast Instance to Specified Class Demo
 ===========================
+
+将某个instance指定为期望的class实例，如果失败则报错。
 
 ```
 npm install
-npm run demo
+npm start
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
